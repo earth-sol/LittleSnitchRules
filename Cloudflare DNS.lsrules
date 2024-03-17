@@ -16,24 +16,6 @@
     },
     {
       "action" : "allow",
-      "ports" : "53",
-      "protocol" : "udp",
-      "remote-addresses" : "1.0.0.1"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "protocol" : "udp",
-      "remote-addresses" : "1.1.1.1"
-    },
-    {
-      "action" : "allow",
-      "ports" : "443",
-      "protocol" : "tcp",
-      "remote-hosts" : "chrome.cloudflare-dns.com"
-    },
-    {
-      "action" : "allow",
       "ports" : "443",
       "protocol" : "tcp",
       "remote-hosts" : "chrome.cloudflare-dns.com"
@@ -53,42 +35,19 @@
     {
       "action" : "allow",
       "ports" : "443",
-      "protocol" : "udp",
-      "remote-hosts" : "chrome.cloudflare-dns.com"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "protocol" : "udp",
-      "remote-hosts" : "one.one.one.one"
-    },
-    {
-      "action" : "allow",
-      "ports" : "443",
-      "protocol" : "tcp",
-      "remote-domains" : "one.one.one.one"
-    },
-    {
-      "action" : "allow",
-      "ports" : "853",
       "protocol" : "tcp",
       "remote-domains" : "one.one.one.one"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "protocol" : "tcp",
+      "protocol" : "udp",
       "remote-domains" : "one.one.one.one"
     },
     {
       "action" : "allow",
       "ports" : "853",
       "protocol" : "tcp",
-      "remote-domains" : "one.one.one.one"
-    },
-    {
-      "action" : "allow",
-      "protocol" : "icmp",
       "remote-domains" : "one.one.one.one"
     },
     {
